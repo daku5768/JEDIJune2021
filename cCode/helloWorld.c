@@ -1,5 +1,10 @@
 #include<stdio.h>
+void greetings();
 int main(){
-	printf("Hello world!");
+	greetings();
 	// changes
-}			
+}
+void greetings()
+{
+	printf("good morning");
+}
